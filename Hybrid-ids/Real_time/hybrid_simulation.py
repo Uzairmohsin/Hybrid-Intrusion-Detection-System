@@ -28,7 +28,7 @@ print("Model loaded successfully!\n")
 # 2. Load Test Dataset
 # ==========================================================
 
-test_data_path = "../test_data/test.csv"  # Change path if needed
+test_data_path = "/home/kali/Downloads/test.csv"
 data = pd.read_csv(test_data_path)
 
 print("Test Dataset Loaded.")
