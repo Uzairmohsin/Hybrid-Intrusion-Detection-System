@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 print("Loading trained model...")
 
-model_data = joblib.load("/home/kali/Documents/Intrusion-Detection-System-IDS-using-Neural-Networks/Hybrid-ids/Model/saved_model.pkl")
+model_data = joblib.load("/home/kali/Documents/Intrusion-Detection-System-IDS-using-Neural-Networks/Hybrid-ids/Model/random_forest_model.pkl")
 
 model = model_data["model"]
 scaler = model_data["scaler"]
