@@ -5,6 +5,6 @@ hi
 hi
 hi
 this is the edit
-we need to upload the test data file as well as train data set as csv in new file
+we need to upload the test data file as well as train data set as csv in new file (uploaded)
 and also upload the report of this mini project here 
-change the od the project to hybrid itrusion detection system
+change the name of the project to hybrid intrusion detection system
