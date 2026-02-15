@@ -1,10 +1,13 @@
-# Hybrid Intrusion Detection System
-An Intrusion Detection System (IDS) monitors network traffic and detects malicious activities.
-i am making hybrid ids which is the combination of signaature based ids and anomily based ids
-hi
-hi
-hi
-this is the edit
-we need to upload the test data file as well as train data set as csv in new file (uploaded)
-and also upload the report of this mini project here 
-change the name of the project to hybrid intrusion detection system
+##  Project Overview
+
+- Developed a **Hybrid Intrusion Detection System (IDS)** in a **Kali Linux environment** to detect malicious network traffic.
+- Combined **Signature-Based Detection (rule-based logic)** with **Machine Learning-based Anomaly Detection** for improved cybersecurity performance.
+- Implemented and compared three machine learning models:
+  - 🔹 **Isolation Forest** (Unsupervised Anomaly Detection)
+  - 🔹 **Random Forest** (Supervised Ensemble Learning)
+  - 🔹 **Multi-Layer Perceptron (MLP)** Neural Network
+- Trained and evaluated models using benchmark intrusion detection datasets.
+- Achieved strong classification capability with **ROC-AUC = 0.94**.
+- Selected **Random Forest** as the primary detection model based on stability and performance.
+- Designed a **Hybrid OR-based decision engine** to combine ML and rule-based outputs.
+- Built using **Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, and Joblib**, and tested within **Kali Linux**.
